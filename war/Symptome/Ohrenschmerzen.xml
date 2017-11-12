@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ohrenschmerzen>
+<Title>Ohrenschmerzen</Title>
+<Information></Information>
+<BackgroundColor>#FFCC99</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1015</key><value>1._Tag,_kein_Ausfluss_aus_dem_Ohr,_Wärme_tut_gut</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1016</key><value>1._Tag,_kein_Ausfluss_aus_dem_Ohr,_Kälte_tut_gut</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1017</key><value>2._Tag</value>
+</Detail>
+</Details>
+</Ohrenschmerzen>

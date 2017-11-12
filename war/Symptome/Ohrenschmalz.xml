@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ohrenschmalz>
+<Title>Ohrenschmalz</Title>
+<Information></Information>
+<BackgroundColor>#FFCC99</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1008</key><value>Rot_</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1009</key><value>Gelb</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1010</key><value>Weiß</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1011</key><value>Schwarz</value>
+</Detail>
+</Details>
+</Ohrenschmalz>

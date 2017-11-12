@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Husten_mit_Fieber>
+<Title>Husten mit Fieber</Title>
+<Information></Information>
+<BackgroundColor>#FFFF99</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1054</key><value>Trockenes_Fieber</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1055</key><value>Schweißiges_Fieber</value>
+</Detail>
+</Details>
+</Husten_mit_Fieber>

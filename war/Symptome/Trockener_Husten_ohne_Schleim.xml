@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trockener_Husten_ohne_Schleim>
+<Title>Trockener Husten ohne Schleim</Title>
+<Information></Information>
+<BackgroundColor>#FFFF99</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1056</key><value>Schlimmer_in_Wärme</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1057</key><value>Schlimmer_in_frischer_Luft</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1058</key><value>Am_schlimmsten_in_der_2._Nachthälfte</value>
+</Detail>
+</Details>
+</Trockener_Husten_ohne_Schleim>

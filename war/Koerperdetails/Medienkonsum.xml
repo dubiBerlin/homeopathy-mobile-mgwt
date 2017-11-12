@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Medienkonsum>
+	<Title>Medienkonsum</Title>
+	<Information></Information>
+	<BackgroundColor>#FFCCFF</BackgroundColor>
+	<Details>
+		<Detail>PC/Konsolen</Detail>
+		<Detail>TV</Detail>
+	</Details>
+</Medienkonsum>

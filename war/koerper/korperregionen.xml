@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<korperregionen>
+<Title>korperregionen</Title>
+<Information></Information>
+<BackgroundColor>#FFCC99</BackgroundColor>
+<Details>
+	<Detail>Kopf</Detail>
+	<Detail>Psyche</Detail>
+	<Detail>Brustkorb</Detail>
+	<Detail>Bauchraum</Detail>
+	<Detail>Extremitäten</Detail>
+	<Detail>Babys</Detail>
+	<Detail>Sonstiges</Detail>
+</Details>
+</korperregionen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Halsschmerzen>
+	<Title>Halsschmerzen</Title>
+	<Information></Information>
+	<BackgroundColor>#FFCC99</BackgroundColor>
+	<Details>
+		<Detail>
+			<key>Erscheinungsbild_1023</key><value>Brennender Schmerz</value>
+		</Detail>
+		<Detail>
+			<key>Erscheinungsbild_1024</key><value>Folge von Überanstrengung</value>
+		</Detail>
+		<Detail>
+			<key>Erscheinungsbild_1025</key><value>Sehr empfindlicher Hals, wie zugeschnürt</value>
+		</Detail>
+		<Detail>
+			<key>Erscheinungsbild_1026</key><value>Hals hoch rot, schmerzhafter Schluckzwang</value>
+		</Detail>
+	</Details>
+</Halsschmerzen>

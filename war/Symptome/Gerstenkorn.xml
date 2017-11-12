@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gerstenkorn>
+<Title>Gerstenkorn</Title>
+<Information></Information>
+<BackgroundColor></BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1005</key><value>Infektionsbeginn</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1006</key><value>Gerstenkorn_besteht_länger</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1007</key><value>Gerstenkorn_wiederkehrend</value>
+</Detail>
+</Details>
+</Gerstenkorn>

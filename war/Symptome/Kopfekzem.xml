@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kopfekzem>
+<Title>Kopfekzem</Title>
+<Information></Information>
+<BackgroundColor>#CCCCFF</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1114</key><value>Schmächtiges_Neugeborenes</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1115</key><value>Dickes_Neugeborenes</value>
+</Detail>
+</Details>
+</Kopfekzem>

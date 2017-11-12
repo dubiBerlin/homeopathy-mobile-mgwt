@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schlafwandeln>
+<Title>Schlafwandeln</Title>
+<Information></Information>
+<BackgroundColor>#FFCCCC</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1188</key><value>Sucht_Licht</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1189</key><value>Sucht_Ruhe_und_Nähe</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1190</key><value>Sucht_Ruhe_und_Wärme</value>
+</Detail>
+</Details>
+</Schlafwandeln>

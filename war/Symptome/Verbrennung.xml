@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Verbrennung>
+<Title>Verbrennung</Title>
+<Information></Information>
+<BackgroundColor>#FFCCFF</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1139</key><value>Mit_Blasen,_stechendes_Brennen</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1140</key><value>Mit_Blasen,_tomatenrot</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1141</key><value>Mit_Blasen_Mund/Lippen</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1142</key><value>Ohne_Blasen,_juckend</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1143</key><value>Ohne_Blasen,_brennend</value>
+</Detail>
+</Details>
+</Verbrennung>

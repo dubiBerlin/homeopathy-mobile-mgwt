@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zahnung>
+<Title>Zahnung</Title>
+<Information></Information>
+<BackgroundColor>#FFCC99</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1018</key><value>Rötung_beider_Wangen</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1019</key><value>Rötung_einer_Wange</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1020</key><value>Durchfall_gelblich,_schleimig,_Wangen_rot</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1021</key><value>Durchfall_sauer_riechend</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1022</key><value>Durchfall_flüssig,_stinkend,_Blähungen</value>
+</Detail>
+</Details>
+</Zahnung>

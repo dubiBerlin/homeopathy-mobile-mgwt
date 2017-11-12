@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TV>
+<Title>TV</Title>
+<Information></Information>
+<BackgroundColor></BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1144</key><value>Schlaflosigkeit_durch_Sorgen_über_eine_Sendung</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1145</key><value>Schlaflos_durch_Grausamkeiten</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1146</key><value>Schlaflos_wegen_Mitgefühl</value>
+</Detail>
+</Details>
+</TV>

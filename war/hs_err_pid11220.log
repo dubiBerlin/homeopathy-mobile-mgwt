@@ -1,0 +1,183 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (sharedRuntime.cpp:665), pid=11220, tid=10492
+#  guarantee(false) failed: missing exception handler
+#
+# JRE version: 6.0_25-b06
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.0-b11 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000c565000):  JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ 3V""uj4Pe.GO-PfO" daemon [_thread_in_vm, id=10492, stack(0x0000000016ef0000,0x0000000016ff0000)]
+
+Stack: [0x0000000016ef0000,0x0000000016ff0000]
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+v  ~ExceptionBlob
+J  java.net.SocketInputStream.read([BII)I
+J  java.io.BufferedInputStream.fill()V
+J  java.io.BufferedInputStream.read()I
+J  com.google.gwt.dev.shell.BrowserChannel$Message.readMessageType(Ljava/io/DataInputStream;)Lcom/google/gwt/dev/shell/BrowserChannel$MessageType;
+J  com.google.gwt.dev.shell.BrowserChannelServer.reactToMessages(Lcom/google/gwt/dev/shell/BrowserChannelServer$SessionHandlerServer;)V
+j  com.google.gwt.dev.shell.BrowserChannelServer.processConnection()V+877
+j  com.google.gwt.dev.shell.BrowserChannelServer.run()V+1
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000000009699000 JavaThread "CompilationUnitBuilder" daemon [_thread_blocked, id=3872, stack(0x00000000178f0000,0x00000000179f0000)]
+  0x000000000c560800 JavaThread "1417181162@qtp-1682326211-25" [_thread_blocked, id=5952, stack(0x0000000016af0000,0x0000000016bf0000)]
+  0x0000000009697800 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ VE4#IZazs<N31/8_" daemon [_thread_blocked, id=4304, stack(0x00000000177f0000,0x00000000178f0000)]
+  0x000000000c562000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ -b3|[i]bgOb"L>J$" daemon [_thread_blocked, id=10092, stack(0x0000000007390000,0x0000000007490000)]
+  0x0000000009696000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ !VU6F3;<h~-\P+4$" daemon [_thread_blocked, id=10244, stack(0x00000000175f0000,0x00000000176f0000)]
+  0x000000000685c800 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ >+&O0L)V[@xI7cbj" daemon [_thread_blocked, id=6672, stack(0x00000000171f0000,0x00000000172f0000)]
+  0x000000000c566800 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ O4vuexl`{B5Z3:U$" daemon [_thread_blocked, id=5920, stack(0x00000000173f0000,0x00000000174f0000)]
+  0x000000000c566000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ TdO6+X6\J*_on,>g" daemon [_thread_blocked, id=476, stack(0x0000000016ff0000,0x00000000170f0000)]
+=>0x000000000c565000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ 3V""uj4Pe.GO-PfO" daemon [_thread_in_vm, id=10492, stack(0x0000000016ef0000,0x0000000016ff0000)]
+  0x000000000c563800 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ c-Sid2wWQ0;0f`3C" daemon [_thread_blocked, id=5584, stack(0x0000000014370000,0x0000000014470000)]
+  0x000000000c563000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997#SidePlace4:Halsschmerzen @ vl+JlHu:ErL@LQ>+" daemon [_thread_blocked, id=796, stack(0x0000000016cf0000,0x0000000016df0000)]
+  0x000000000c561800 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ ~D*R1PiA{<v/G2Rb" daemon [_thread_blocked, id=3880, stack(0x0000000016bf0000,0x0000000016cf0000)]
+  0x000000000c560000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ h`vY>D~GpOk};z~<" daemon [_thread_blocked, id=9508, stack(0x00000000169f0000,0x0000000016af0000)]
+  0x000000000c55f800 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ \(ii<I>G4-HzN|e)" daemon [_thread_blocked, id=3424, stack(0x00000000167f0000,0x00000000168f0000)]
+  0x000000000685c000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ VoKs!DZ:0r.jsJ_s" daemon [_thread_blocked, id=3724, stack(0x000000000a9b0000,0x000000000aab0000)]
+  0x000000000685b000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ 5&l}Vc(t+'1J-)]H" daemon [_thread_blocked, id=3780, stack(0x000000000a8b0000,0x000000000a9b0000)]
+  0x000000000685a800 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ En:#h\sql/o.|4@e" daemon [_thread_blocked, id=8428, stack(0x00000000083d0000,0x00000000084d0000)]
+  0x000000000685a000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ >[?@YS|nj0/mooZ6" daemon [_thread_blocked, id=7352, stack(0x00000000082d0000,0x00000000083d0000)]
+  0x0000000006857800 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ ({}(kW]K8qVmy_9@" daemon [_thread_blocked, id=9244, stack(0x00000000168f0000,0x00000000169f0000)]
+  0x0000000006858800 JavaThread "AWT-Windows" daemon [_thread_in_native, id=6356, stack(0x0000000013990000,0x0000000013a90000)]
+  0x0000000006857000 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=4080, stack(0x000000000a600000,0x000000000a700000)]
+  0x0000000006856000 JavaThread "Code server for mgwthomoeopathischeapp from Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0 on http://127.0.0.1:8888/MgwtHomoeopathischeApp.html?gwt.codesvr=127.0.0.1:9997 @ @Iq]c@}["#uh#N*3" daemon [_thread_blocked, id=6436, stack(0x0000000007690000,0x0000000007790000)]
+  0x0000000007c2d000 JavaThread "Timer-0" daemon [_thread_blocked, id=8492, stack(0x0000000007490000,0x0000000007590000)]
+  0x0000000007ae0800 JavaThread "1848021541@qtp-1682326211-1 - Acceptor0 SelectChannelConnector@0.0.0.0:8888" [_thread_in_native, id=6844, stack(0x00000000084d0000,0x00000000085d0000)]
+  0x0000000007a74000 JavaThread "com.google.gwt.thirdparty.guava.common.base.internal.Finalizer" daemon [_thread_blocked, id=10036, stack(0x00000000081d0000,0x00000000082d0000)]
+  0x00000000066df800 JavaThread "Code server listener" daemon [_thread_in_native, id=6184, stack(0x0000000007790000,0x0000000007890000)]
+  0x00000000066e1000 JavaThread "UnitWriteThread" daemon [_thread_blocked, id=10300, stack(0x0000000007590000,0x0000000007690000)]
+  0x000000000632f000 JavaThread "Thread-2" daemon [_thread_blocked, id=4296, stack(0x0000000007290000,0x0000000007390000)]
+  0x000000000675a000 JavaThread "Thread-1" [_thread_in_native, id=2652, stack(0x0000000007190000,0x0000000007290000)]
+  0x0000000006556800 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=3252, stack(0x0000000006b30000,0x0000000006c30000)]
+  0x0000000006549000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=7280, stack(0x0000000006a30000,0x0000000006b30000)]
+  0x00000000062fe000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=4704, stack(0x0000000006930000,0x0000000006a30000)]
+  0x000000000618a000 JavaThread "Attach Listener" daemon [_thread_blocked, id=1320, stack(0x0000000006430000,0x0000000006530000)]
+  0x0000000006185000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=6240, stack(0x0000000006330000,0x0000000006430000)]
+  0x000000000052a800 JavaThread "Finalizer" daemon [_thread_blocked, id=10376, stack(0x0000000006030000,0x0000000006130000)]
+  0x0000000000529000 JavaThread "Reference Handler" daemon [_thread_blocked, id=7608, stack(0x0000000005f30000,0x0000000006030000)]
+  0x000000000022e000 JavaThread "main" [_thread_blocked, id=10252, stack(0x0000000002100000,0x0000000002200000)]
+
+Other Threads:
+  0x000000000051f800 VMThread [stack: 0x0000000005e30000,0x0000000005f30000] [id=10284]
+  0x0000000006560800 WatcherThread [stack: 0x0000000006c30000,0x0000000006d30000] [id=984]
+
+VM state:synchronizing (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000000000022c580] Threads_lock - owner thread: 0x000000000051f800
+[0x000000000022ca80] Heap_lock - owner thread: 0x000000000c55f800
+
+Heap
+ PSYoungGen      total 134400K, used 1596K [0x00000000f5560000, 0x00000000fd8d0000, 0x0000000100000000)
+  eden space 134272K, 1% used [0x00000000f5560000,0x00000000f56ef0d8,0x00000000fd880000)
+  from space 128K, 0% used [0x00000000fd880000,0x00000000fd880000,0x00000000fd8a0000)
+  to   space 128K, 0% used [0x00000000fd8b0000,0x00000000fd8b0000,0x00000000fd8d0000)
+ PSOldGen        total 349568K, used 332027K [0x00000000e0000000, 0x00000000f5560000, 0x00000000f5560000)
+  object space 349568K, 94% used [0x00000000e0000000,0x00000000f443ee98,0x00000000f5560000)
+ PSPermGen       total 83968K, used 83967K [0x00000000dae00000, 0x00000000e0000000, 0x00000000e0000000)
+  object space 83968K, 99% used [0x00000000dae00000,0x00000000dffffff8,0x00000000e0000000)
+
+Code Cache  [0x0000000002300000, 0x0000000002a60000, 0x0000000005300000)
+ total_blobs=1939 nmethods=1501 adapters=390 free_code_cache=42710336 largest_free_block=27648
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042e000 	C:\Program Files\Java\jre6\bin\javaw.exe
+0x0000000076d40000 - 0x0000000076ee9000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000076660000 - 0x000000007677f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd290000 - 0x000007fefd2fc000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefd7e0000 - 0x000007fefd8bb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefefb0000 - 0x000007feff04f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefed80000 - 0x000007fefed9f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefde40000 - 0x000007fefdf6d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000076780000 - 0x000000007687a000 	C:\Windows\system32\USER32.dll
+0x000007fefd570000 - 0x000007fefd5d7000 	C:\Windows\system32\GDI32.dll
+0x000007fefde30000 - 0x000007fefde3e000 	C:\Windows\system32\LPK.dll
+0x000007fefdcb0000 - 0x000007fefdd79000 	C:\Windows\system32\USP10.dll
+0x000007fefdaf0000 - 0x000007fefdb1e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefdb20000 - 0x000007fefdc29000 	C:\Windows\system32\MSCTF.dll
+0x000000006d7f0000 - 0x000000006dfa8000 	C:\Program Files\Java\jre6\bin\server\jvm.dll
+0x000007fef7a30000 - 0x000007fef7a6b000 	C:\Windows\system32\WINMM.dll
+0x000000006d760000 - 0x000000006d76e000 	C:\Program Files\Java\jre6\bin\verify.dll
+0x000000006d3b0000 - 0x000000006d3d7000 	C:\Program Files\Java\jre6\bin\java.dll
+0x0000000076f00000 - 0x0000000076f07000 	C:\Windows\system32\PSAPI.DLL
+0x000000006d360000 - 0x000000006d380000 	C:\Program Files\Java\jre6\bin\instrument.dll
+0x000000006d7b0000 - 0x000000006d7c2000 	C:\Program Files\Java\jre6\bin\zip.dll
+0x000000006d600000 - 0x000000006d617000 	C:\Program Files\Java\jre6\bin\net.dll
+0x000007fefd920000 - 0x000007fefd96d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefde20000 - 0x000007fefde28000 	C:\Windows\system32\NSI.dll
+0x000007fefca10000 - 0x000007fefca65000 	C:\Windows\system32\mswsock.dll
+0x000007fefca00000 - 0x000007fefca07000 	C:\Windows\System32\wship6.dll
+0x000007fefc3b0000 - 0x000007fefc3b7000 	C:\Windows\System32\wshtcpip.dll
+0x000007fefc890000 - 0x000007fefc8eb000 	C:\Windows\system32\DNSAPI.dll
+0x000007fefa940000 - 0x000007fefa967000 	C:\Windows\system32\IPHLPAPI.DLL
+0x000007fefa930000 - 0x000007fefa93b000 	C:\Windows\system32\WINNSI.DLL
+0x000007fef8600000 - 0x000007fef8608000 	C:\Windows\system32\rasadhlp.dll
+0x000007fefa7d0000 - 0x000007fefa823000 	C:\Windows\System32\fwpuclnt.dll
+0x000007fefcc60000 - 0x000007fefcc77000 	C:\Windows\system32\CRYPTSP.dll
+0x000007fefc770000 - 0x000007fefc7b7000 	C:\Windows\system32\rsaenh.dll
+0x000007fefc4f0000 - 0x000007fefc50e000 	C:\Windows\system32\USERENV.dll
+0x000007fefd1a0000 - 0x000007fefd1af000 	C:\Windows\system32\profapi.dll
+0x000007fefd0d0000 - 0x000007fefd0df000 	C:\Windows\system32\CRYPTBASE.dll
+0x000007fefb520000 - 0x000007fefb535000 	C:\Windows\system32\NLAapi.dll
+0x000007fef7c40000 - 0x000007fef7c55000 	C:\Windows\system32\napinsp.dll
+0x000007fef7c20000 - 0x000007fef7c39000 	C:\Windows\system32\pnrpnsp.dll
+0x000007fef7c10000 - 0x000007fef7c1b000 	C:\Windows\System32\winrnr.dll
+0x000000006d620000 - 0x000000006d62b000 	C:\Program Files\Java\jre6\bin\nio.dll
+0x000000006d000000 - 0x000000006d1c3000 	C:\Program Files\Java\jre6\bin\awt.dll
+0x000007fef95b0000 - 0x000007fef9621000 	C:\Windows\system32\WINSPOOL.DRV
+0x000007fefeda0000 - 0x000007fefefa3000 	C:\Windows\system32\ole32.dll
+0x000007fefdf70000 - 0x000007fefecf8000 	C:\Windows\system32\SHELL32.dll
+0x000007fefed00000 - 0x000007fefed71000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefb8d0000 - 0x000007fefbac4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefb680000 - 0x000007fefb698000 	C:\Windows\system32\DWMAPI.DLL
+0x000007fefb870000 - 0x000007fefb8c6000 	C:\Windows\system32\uxtheme.dll
+0x000000006d2a0000 - 0x000000006d306000 	C:\Program Files\Java\jre6\bin\fontmanager.dll
+0x0000000180000000 - 0x000000018004a000 	C:\Program Files\Acer\Acer ePower Management\SysHook.dll
+0x000007fefda10000 - 0x000007fefdae7000 	C:\Windows\system32\OLEAUT32.dll
+0x000007feeef20000 - 0x000007feef11f000 	C:\Windows\system32\d3d9.dll
+0x000007fefc2e0000 - 0x000007fefc2ec000 	C:\Windows\system32\VERSION.dll
+0x000007fefb5a0000 - 0x000007fefb5a7000 	C:\Windows\system32\d3d8thk.dll
+0x000007feec160000 - 0x000007feecd56000 	C:\Windows\system32\nvd3dumx.dll
+0x000007fefb6f0000 - 0x000007fefb71c000 	C:\Windows\system32\powrprof.dll
+0x000007fefd600000 - 0x000007fefd7d7000 	C:\Windows\system32\SETUPAPI.dll
+0x000007fefd250000 - 0x000007fefd286000 	C:\Windows\system32\CFGMGR32.dll
+0x000007fefd510000 - 0x000007fefd52a000 	C:\Windows\system32\DEVOBJ.dll
+
+VM Arguments:
+jvm_args: -Ddatastore.default_high_rep_job_policy_unapplied_job_pct=50 -Xmx512m -javaagent:C:\eclipse\plugins\com.google.appengine.eclipse.sdkbundle_1.7.1\appengine-java-sdk-1.7.1\lib\agent\appengine-agent.jar -DinsecurePhoneGapFileApi=true -DphonegapFilePath=/Users/dp/workspace/mgwtHomoeopathischeApp -Dfile.encoding=Cp1252 
+java_command: com.google.gwt.dev.DevMode -startupUrl MgwtHomoeopathischeApp.html -war C:\Users\dp\workspace\mgwtHomoeopathischeApp\war -remoteUI 64879:1221608202152739 -logLevel INFO -codeServerPort 9997 -port 8888 -server com.google.appengine.tools.development.gwt.AppEngineLauncher de.mgwt.dubravko.MgwtHomoeopathischeApp
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_24
+PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec MyWinLocker\x86;C:\Program Files (x86)\EgisTec MyWinLocker\x64;C:\Program Files(x86)\Java\jre6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.6.0_24\bin;C:\Programme\Apache Software Foundation\apache-maven-3.0.4\bin
+USERNAME=dp
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 4053720k(1450236k free), swap 10909764k(6998032k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.0-b11) for windows-amd64 JRE (1.6.0_25-b06), built on Apr 14 2011 00:44:38 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Sat Oct 27 21:15:35 2012
+elapsed time: 37909 seconds
+

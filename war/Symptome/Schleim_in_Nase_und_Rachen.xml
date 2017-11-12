@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schleim_in_Nase_und_Rachen>
+<Title>Schleim in Nase und Rachen</Title>
+<Information></Information>
+<BackgroundColor>#FFFF99</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1059</key><value>Husten_schleimig,_fädenziehend</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1060</key><value>Sehr_viel_klarer_Schleim</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1061</key><value>Fest_sitzender_Schleim,_kann_nur_sehr_geräuschvoll_hervorgebracht_werden</value>
+</Detail>
+</Details>
+</Schleim_in_Nase_und_Rachen>

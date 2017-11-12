@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bluterguss_Kopfhaut>
+<Title>Bluterguss Kopfhaut</Title>
+<Information></Information>
+<BackgroundColor>#CCCCFF</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1116</key><value>Besserung_nach_Soforttherapie_mit_Arnica</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1117</key><value>Keine_Besserung_nach_Arnica</value>
+</Detail>
+</Details>
+</Bluterguss_Kopfhaut>

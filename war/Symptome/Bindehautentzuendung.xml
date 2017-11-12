@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BindehautentzÃ¼ndung>
+<Title>BindehautentzÃ¼ndung</Title>
+<Information>
+</Information>
+<BackgroundColor>#FFCC99</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1001</key><value>Ohne_erkennbare_Ursache</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1002</key><value>Folge_von_Allergien</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1003</key><value>Folge_von_Verletzung</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1004</key><value>Folge_von_Kälte/Durchnässung</value>
+</Detail>
+</Details>
+</BindehautentzÃ¼ndung>

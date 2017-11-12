@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kann_nicht_einschlafen>
+<Title>Kann nicht einschlafen</Title>
+<Information></Information>
+<BackgroundColor>#FFCCCC</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1171</key><value>Angst_vor_Unglück,_Tod</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1172</key><value>Angst_vor_Träumen,_Geräuschen</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1173</key><value>Angst_vor_Dieben,_Gespenstern</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1174</key><value>Angst_vorm_Alleinsein,_schwarzen_Gestalten</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1175</key><value>Unruhe</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1176</key><value>Überanstrengung</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1177</key><value>Gefühl_wie_geprügelt</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1178</key><value>Sorgen_des_Tages</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1179</key><value>Kummer,_Demütigung</value>
+</Detail>
+</Details>
+</Kann_nicht_einschlafen>

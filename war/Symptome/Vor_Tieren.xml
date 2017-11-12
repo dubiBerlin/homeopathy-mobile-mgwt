@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vor_Tieren>
+<Title>Vor Tieren</Title>
+<Information></Information>
+<BackgroundColor></BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1151</key><value>Wilden_Tieren</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1152</key><value>Schwarzen_Hunden</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1153</key><value>Insekten</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1154</key><value>Spinnen</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1155</key><value>Schlangen</value>
+</Detail>
+</Details>
+</Vor_Tieren>

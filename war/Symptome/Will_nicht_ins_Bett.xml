@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Will_nicht_ins_Bett>
+<Title>Will nicht ins Bett</Title>
+<Information></Information>
+<BackgroundColor>#FFCCCC</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1191</key><value>Zu_heiß</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1192</key><value>Zu_Kalt</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1193</key><value>Will_getragen_werden</value>
+</Detail>
+</Details>
+</Will_nicht_ins_Bett>

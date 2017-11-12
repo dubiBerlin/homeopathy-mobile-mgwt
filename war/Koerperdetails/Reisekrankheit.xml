@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reisekrankheit>
+	<Title>Reisekrankheit</Title>
+	<Information></Information>
+	<BackgroundColor>#FFCCFF</BackgroundColor>
+	<Details>
+		<Detail>Übelkeit und Schwindel</Detail>
+		<Detail>Übelkeit, Kaltschweißig</Detail>
+		<Detail>Ausgeprägte Seekrankheit</Detail>
+	</Details>
+</Reisekrankheit>

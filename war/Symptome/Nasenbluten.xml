@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Nasenbluten>
+<Title>Nasenbluten</Title>
+<Information></Information>
+<BackgroundColor>#FFCC99</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1035</key><value>Hellrotes_Blut</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1036</key><value>Normales_Blut</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1037</key><value>Dunkelrotes_Blut</value>
+</Detail>
+</Details>
+</Nasenbluten>

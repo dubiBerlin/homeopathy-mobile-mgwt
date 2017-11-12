@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kann_nicht_durchschlafen>
+<Title>Kann nicht durchschlafen</Title>
+<Information></Information>
+<BackgroundColor>#FFCCCC</BackgroundColor>
+<Details>
+<Detail>
+<key>Erscheinungsbild_1180</key><value>Hektisch_überdreht</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1181</key><value>Nervös</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1182</key><value>Nachtschreck,_erkennt_niemanden</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1183</key><value>Nachtschreck,_stöhnt,_redet</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1184</key><value>Nachtschreck,_Panik</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1185</key><value>Singt_und_spielt</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1186</key><value>Hunger</value>
+</Detail>
+<Detail>
+<key>Erscheinungsbild_1187</key><value>Hnuger_und_Durst</value>
+</Detail>
+</Details>
+</Kann_nicht_durchschlafen>

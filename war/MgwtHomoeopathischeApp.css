@@ -1,0 +1,22 @@
+
+
+.disclaimerPanel{
+	width: 95%;
+	height: 85%;
+	background-color: #E6E6E6;
+ 	border-width: 1px;
+    border-style: solid;
+  	border-color: black;
+  	border-radius: 1em;	
+}
+
+.disclaimerLabel{
+	
+	font-size: 2em;
+  	font-weight: bold;
+  	color: #777777;
+  	padding: 1em;
+  	text-align: left;
+}
+
+
